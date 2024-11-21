@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { SubNav } from "./subNav";
+import { Subnav } from "./subnav";
 
 
 export const SiteHeader: FC = () => (
@@ -7,6 +7,6 @@ export const SiteHeader: FC = () => (
     <header style={{ background: 'red', padding: '2rem 0', zIndex: 100 }}>
       Site Wide Header
     </header>
-    <SubNav />
+    <Subnav />
   </div>
 )
